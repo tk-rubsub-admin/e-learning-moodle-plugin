@@ -1,0 +1,12 @@
+/* Hide Moodle's site logo, notification bell, and user menu on custom LMS pages. */
+#page-local-lmslaunch-course nav.navbar.fixed-top,
+#page-local-lmslaunch-content nav.navbar.fixed-top,
+#page-local-lmslaunch-quiz nav.navbar.fixed-top {
+    display: none !important;
+}
+
+#page-local-lmslaunch-course #page,
+#page-local-lmslaunch-content #page,
+#page-local-lmslaunch-quiz #page {
+    padding-top: 0 !important;
+}
